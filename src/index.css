@@ -1,0 +1,57 @@
+/* src/index.css */
+
+:root {
+  /* Font */
+  --font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  /* Colors */
+  --bg-color: #1a1a1a;
+  --surface-color: #242424;
+  --primary-color: #646cff;
+  --primary-color-hover: #535bf2;
+  --bot-message-color: #3a3f47;
+  --user-message-color: #5841d9;
+  --text-color: rgba(255, 255, 255, 0.87);
+  --border-color: #4b5563;
+  --input-bg-color: #374151;
+
+  /* Sizing */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--surface-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #777;
+}
