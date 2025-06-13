@@ -22,3 +22,7 @@ git clone https://github.com/Hritik802122/NeoHritik-ChatBot.git
 cd NeoHritik-ChatBot
 npm install
 npm run dev
+
+## Live Demo
+Check out the live chatbot here:- https://neo-hritik-chat-bot.vercel.app
+
