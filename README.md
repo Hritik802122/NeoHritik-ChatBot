@@ -17,7 +17,6 @@ It uses rule-based logic to respond to user queries and features a clean, modern
 
 ## Getting Started
 
-```bash
 git clone https://github.com/Hritik802122/NeoHritik-ChatBot.git
 cd NeoHritik-ChatBot
 npm install
