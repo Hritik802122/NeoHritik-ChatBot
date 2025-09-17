@@ -22,7 +22,7 @@ cd NeoHritik-ChatBot
 npm install
 npm run dev
 
- Live Demo :
+ Live Demo :-
 
 Check out the live chatbot here:- [neo-hritik-chat-bot.vercel.app](https://neo-hritik-chat-bot.vercel.app)
 
