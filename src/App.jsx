@@ -13,6 +13,7 @@ const App = () => {
   // Auto-scroll to the latest message
   const scrollToBottom = () => {
     messagesEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+    
   };
 
   useEffect(() => {
